@@ -96,8 +96,3 @@ To run inference directly with my trained model:
 3. Set `Args.checkpoint` in `evaluation.py`
 4. Run `python evaluation.py`
 
-## ✅ Notes
-
-- Third-party attributions: see `THIRD_PARTY_NOTICES.md`.
-- Keep large files (datasets, checkpoints, results) out of git; `.gitignore` is included.
-- Add your repository `LICENSE` file before public release.
