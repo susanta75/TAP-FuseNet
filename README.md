@@ -4,10 +4,10 @@ Official implementation of **TAPFuseNet**, a **small polyp segmentation model** 
 
 ## 🔗 Quick Links
 
-- 📦 **Model Weights (Google Drive)**: `https://drive.google.com/file/d/1samxCNWUpSm5jrjoSPY6RQ26VDO9y5sd/view?usp=sharing`
-- 🧩 **SAM-ViT Pretrained Checkpoint (Google Drive)**: `https://drive.google.com/file/d/1GEiteVcAO5PWR7LJTG16jkEPq0LWnZ90/view?usp=drive_link`
-- 🖼️ **Predicted Masks (Google Drive)**: `https://drive.google.com/file/d/1ga8mIZ1k5p33u1GbQxIbNjtu2wqKMNvy/view?usp=drive_link`
-- 🗂️ **Dataset (Google Drive)**: `https://drive.google.com/file/d/1sO4AV3EmGZkK5jjXEYLOoTDjlgk_nblT/view?usp=drive_link`
+- 📦 **Model Weights (Google Drive)**: [Download](https://drive.google.com/file/d/1samxCNWUpSm5jrjoSPY6RQ26VDO9y5sd/view?usp=sharing)
+- 🧩 **SAM-ViT Pretrained Checkpoint (Google Drive)**: [Download](https://drive.google.com/file/d/1GEiteVcAO5PWR7LJTG16jkEPq0LWnZ90/view?usp=drive_link)
+- 🖼️ **Predicted Masks (Google Drive)**: [Download](https://drive.google.com/file/d/1ga8mIZ1k5p33u1GbQxIbNjtu2wqKMNvy/view?usp=drive_link)
+- 🗂️ **Dataset (Google Drive)**: [Download](https://drive.google.com/file/d/1sO4AV3EmGZkK5jjXEYLOoTDjlgk_nblT/view?usp=drive_link)
 
 ## 🧠 Project Structure
 
@@ -66,7 +66,7 @@ Before training, check/update paths in `train.py`:
 - `Args.save_dir`
 
 Backbone initialization weights (for training):
-- 🧩 `PASTE_YOUR_SAM_VIT_PRETRAINED_LINK_HERE`
+- 🧩 [Download](https://drive.google.com/file/d/1GEiteVcAO5PWR7LJTG16jkEPq0LWnZ90/view?usp=drive_link)
 
 ## 🔍 Evaluation / Inference
 
@@ -86,12 +86,12 @@ Outputs:
 ## 📊 Precomputed Predictions
 
 If you only need results without running inference:
-- 🖼️ `https://drive.google.com/file/d/1ga8mIZ1k5p33u1GbQxIbNjtu2wqKMNvy/view?usp=drive_link`
+- 🖼️ [Download](https://drive.google.com/file/d/1ga8mIZ1k5p33u1GbQxIbNjtu2wqKMNvy/view?usp=drive_link)
 
 ## 📥 Pretrained Weights
 
 To run inference directly with my trained model:
-1. Download checkpoint: `https://drive.google.com/file/d/1samxCNWUpSm5jrjoSPY6RQ26VDO9y5sd/view?usp=sharing`
+1. Download checkpoint: [Model Weights](https://drive.google.com/file/d/1samxCNWUpSm5jrjoSPY6RQ26VDO9y5sd/view?usp=sharing)
 2. Put the `.pth` file in `output/` (or any path you prefer)
 3. Set `Args.checkpoint` in `evaluation.py`
 4. Run `python evaluation.py`
